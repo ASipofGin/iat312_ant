@@ -44,9 +44,9 @@ TagManager:
   - name: BG
     uniqueID: 3957239283
     locked: 0
-  - name: Level
-    uniqueID: 1619279795
-    locked: 0
-  - name: Character
+  - name: Game
     uniqueID: 1411025607
+    locked: 0
+  - name: FG
+    uniqueID: 1337245023
     locked: 0
