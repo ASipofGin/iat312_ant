@@ -1637,7 +1637,7 @@ PrefabInstance:
       objectReference: {fileID: 440353652}
     - target: {fileID: 5945724894458541243, guid: 1b49abd15e3f66646990ea2530dac401, type: 3}
       propertyPath: edgeThreshold
-      value: 0.6
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8773999125261738682, guid: 1b49abd15e3f66646990ea2530dac401, type: 3}
       propertyPath: m_LocalPosition.x
