@@ -11,6 +11,7 @@ public class CameraFollow : MonoBehaviour
     private void Start()
     {
         cam = GetComponent<Camera>();
+        player = GameObject.FindGameObjectWithTag("Player").transform; // Automatically find the player's transform
     }
 
     private void Update()
