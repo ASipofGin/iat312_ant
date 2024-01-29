@@ -6,7 +6,7 @@ using UnityEngine;
 public class GrassCollide : MonoBehaviour
 {
     private bool playerTouching = false;
-    private float touchingTime = 0;
+    private float destroyTime = 0;
     public float deletionTimeThreshold = 3;
     // Start is called before the first frame update
     void Start()
@@ -19,9 +19,9 @@ public class GrassCollide : MonoBehaviour
     {
         if (playerTouching)
         {
-            touchingTime += Time.deltaTime;
+            destroyTime += Time.deltaTime;
 
-            if (touchingTime >= deletionTimeThreshold)
+            if (destroyTime >= deletionTimeThreshold)
             {
                 Destroy(gameObject);
             }
@@ -33,7 +33,7 @@ public class GrassCollide : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerTouching = true;
-            touchingTime = 0;
+            destroyTime = 0;
         }
     }
 
