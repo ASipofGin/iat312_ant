@@ -72,7 +72,7 @@ public class SceneController : MonoBehaviour
     public void exitScene(){
         if (characterMovement != null)
         {
-            StartCoroutine(characterMovement.MoveRight(2000f, 4.0f));
+            StartCoroutine(characterMovement.MoveRight(2000f, 2.5f));
         }
 
     }
