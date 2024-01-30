@@ -40,11 +40,11 @@ public class ShowDistance : MonoBehaviour
         {
             distanceToPlayer = enemyMove.returnDist(); // Store the returned distance
 
-            if (distanceToPlayer > 3)
+            if (distanceToPlayer > 5)
             {
                 text.enabled = true;
             }
-            else if (distanceToPlayer < 3)
+            else if (distanceToPlayer < 4.9)
             {
                 text.enabled = false;
             }

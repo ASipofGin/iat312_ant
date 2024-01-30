@@ -4,6 +4,11 @@ public class SceneController : MonoBehaviour
 {
     public CharacterMovement characterMovement;
     public Boundaries bound;
+
+    [SerializeField] private Stats stats;
+
+
+
     public Vector3 AnthillstartingPosition = new Vector3((float)-11.99, (float)-3.77, 0);
     public Vector3 MasterstartingPosition = new Vector3((float)-6.37282, (float)-0.35, 0);  
     public float moveDistanceInPixels = 500f; // 500 pixels
@@ -21,6 +26,7 @@ public class SceneController : MonoBehaviour
 		{
             // Find the player character in the scene
             GameObject player = GameObject.FindWithTag("Player"); // Assuming the player has the tag "Player"
+            
 
             // Get the CharacterMovement component from the player
             if (player != null)
@@ -74,6 +80,10 @@ public class SceneController : MonoBehaviour
         if (characterMovement != null)
         {
             StartCoroutine(characterMovement.MoveRight(2000f, 2.5f));
+
+                    GameObject statsObj = GameObject.FindGameObjectWithTag("GameController");
+                    stats = statsObj.GetComponent<Stats>();
+                    stats.antlionSpeedUp();
         }
 
     }

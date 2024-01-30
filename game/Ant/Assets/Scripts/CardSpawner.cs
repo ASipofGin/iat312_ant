@@ -14,7 +14,10 @@ public class CardSpawner : MonoBehaviour
     [SerializeField]
     private string[] cardDescriptions = { "Description 1", "Description 2", "Description 3" };
     [SerializeField]
-    private Sprite[] cardImages; // Assuming you have card images, assign them here
+    private Sprite[] bgImages; // Assuming you have card images, assign them here
+    [SerializeField]
+    private Sprite[] iconImages; // Assuming you have card images, assign them here
+    
 
     void Start()
     {
@@ -37,7 +40,7 @@ public class CardSpawner : MonoBehaviour
             Card cardScript = card.GetComponent<Card>();
             if (cardScript != null)
             {
-                cardScript.SetupCard(cardNames[i], cardDescriptions[i], cardImages[i]);
+                cardScript.SetupCard(cardNames[i], cardDescriptions[i], bgImages[i], iconImages[i]);
             }
         }
     }

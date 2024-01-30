@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &440353652 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-  m_PrefabInstance: {fileID: 3089585992498780084}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,10 +405,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -543,21 +538,53 @@ PrefabInstance:
       value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgImages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardImages.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: iconImages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgImages.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 24e0b9733ccb6f647ab86da78f968dec, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgImages.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ac6ad606912ff244b350f7e17ae9416, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgImages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: f1dbd8afe4bf0e34c96eb220288ba7e0, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardImages.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 42be16c57523e68419f3e087933b945b, type: 3}
+      objectReference: {fileID: 21300000, guid: 24e0b9733ccb6f647ab86da78f968dec, type: 3}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardImages.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: df224fa4e0992b140bbd671d2c6e11b7, type: 3}
+      objectReference: {fileID: 21300000, guid: 6ac6ad606912ff244b350f7e17ae9416, type: 3}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardImages.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 07fbdc1755b9b4349b1f91217c100562, type: 3}
+      objectReference: {fileID: 21300000, guid: f1dbd8afe4bf0e34c96eb220288ba7e0, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: iconImages.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 98250b0c50314354d94f059ac5ebb1cd, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: iconImages.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f325f79790190042b62d94534d89fa8, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: iconImages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 749a75fc82c853b4eb98cd3b5e42ca94, type: 3}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardDescriptions.Array.data[0]
       value: Boost your characters speed by 30%
@@ -742,67 +769,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5db8a42a8d9a3bc41b95d2aa42458761, type: 3}
---- !u!1001 &3089585992498780084
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 20479422612057497, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_Name
-      value: Ant
-      objectReference: {fileID: 0}
-    - target: {fileID: 20479422612057497, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 893485014430198252, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
 --- !u!1001 &3368530015717831380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -891,7 +857,7 @@ PrefabInstance:
     - target: {fileID: 5945724894458541243, guid: 1b49abd15e3f66646990ea2530dac401, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 440353652}
+      objectReference: {fileID: 0}
     - target: {fileID: 5945724894458541243, guid: 1b49abd15e3f66646990ea2530dac401, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -947,7 +913,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 4793811905298423411}
   - {fileID: 619394802}
-  - {fileID: 3089585992498780084}
   - {fileID: 997592246}
   - {fileID: 3368530015717831380}
   - {fileID: 1126110533}

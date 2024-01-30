@@ -8,7 +8,9 @@ public class Card : MonoBehaviour, IPointerClickHandler
     public CharacterMovement characterMovement;
     public string cardName;
     public string description;
-    public Sprite cardImage; // The image on the card
+    public Sprite bgImage; // The image on the card
+    public Sprite iconImage; // The ICON on the card
+    
 
     // This method is called when the card is clicked
     public void OnPointerClick(PointerEventData eventData)
@@ -60,19 +62,30 @@ public class Card : MonoBehaviour, IPointerClickHandler
     }
 
     // Optionally, you can have methods to set up the card properties
-    public void SetupCard(string name, string desc, Sprite image)
+    public void SetupCard(string name, string desc, Sprite bg, Sprite icon)
     {
         cardName = name;
         description = desc;
-        cardImage = image;
+        bgImage = bg;
+        iconImage = icon;
 
         // If your card has a UI Image component, you can set its sprite like this:
-        GetComponent<Image>().sprite = cardImage;
+        GetComponent<Image>().sprite = bgImage;
 
         Text descriptionText = GetComponentInChildren<Text>();
         if (descriptionText != null)
         {
             descriptionText.text = description;
+        }
+        else
+        {
+            Debug.LogError("Description Text component not found in the children of the card prefab.");
+        }
+
+        Image iconImageObj = transform.Find("IconImage").GetComponent<Image>();
+        if (iconImageObj != null)
+        {
+            iconImageObj.sprite = iconImage;
         }
         else
         {
