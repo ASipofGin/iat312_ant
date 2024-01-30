@@ -24,19 +24,20 @@ public class GrassCollide : MonoBehaviour
             if (destroyTime >= deletionTimeThreshold)
             {
                 Destroy(gameObject);
+
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {
+    {   
+        // compares the object with the tag  player
         if (other.CompareTag("Player"))
         {
             playerTouching = true;
             destroyTime = 0;
         }
     }
-
 
 
 
