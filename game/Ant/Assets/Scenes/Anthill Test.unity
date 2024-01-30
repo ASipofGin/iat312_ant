@@ -595,7 +595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardDescriptions.Array.data[2]
-      value: Who knows whats in the box?
+      value: Its a stick...
       objectReference: {fileID: 0}
     - target: {fileID: 3666163717921837763, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: m_Name
