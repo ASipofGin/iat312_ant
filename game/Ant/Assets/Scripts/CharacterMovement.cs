@@ -140,6 +140,9 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
         CheckMovement();
-        animator.SetFloat("speed", hSpeed);
+        if (animator != null){
+            animator.SetFloat("speed", hSpeed);
+        }
+
     }
 }
