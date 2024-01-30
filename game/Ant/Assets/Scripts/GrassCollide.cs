@@ -19,7 +19,7 @@ public class GrassCollide : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (grassTouching)
+       /* if (grassTouching)
         {
             destroyTime += Time.deltaTime;
 
@@ -28,22 +28,27 @@ public class GrassCollide : MonoBehaviour
                 Destroy(grassObject);
 
             }
-        }
+        } */
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerStay2D(Collider2D other)
     {   
         // compares the object with the tag Grass
         if (other.CompareTag("Grass"))
         {
             // if the tag of the collision is grass, bol touch is true
             Debug.Log("touching");
-            grassTouching = true;
+
+            destroyTime += Time.deltaTime;
             grassObject = other.gameObject;
             // starts the timer for destruction
-            destroyTime = 0;
+            if (destroyTime >= deletionTimeThreshold)
+            {
+                Destroy(grassObject);
+                destroyTime = 0;
+            }
 
-            
+
         }
     }
 
