@@ -465,17 +465,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1703821475 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7602386011078488536, guid: 75af315d01d430b4d919c7a97e434510, type: 3}
-  m_PrefabInstance: {fileID: 3089585992498780084}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8042c9a7698b3f249abdc4cae7ec813e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2076353427 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2839529381626073551, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
@@ -867,9 +856,21 @@ PrefabInstance:
       value: Scene Controller
       objectReference: {fileID: 0}
     - target: {fileID: 2195597067139888200, guid: 59bb9c5cf294555498b331d95bb662c8, type: 3}
-      propertyPath: characterMovement
-      value: 
-      objectReference: {fileID: 1703821475}
+      propertyPath: moveDistanceInPixels
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195597067139888200, guid: 59bb9c5cf294555498b331d95bb662c8, type: 3}
+      propertyPath: moveDurationInSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195597067139888200, guid: 59bb9c5cf294555498b331d95bb662c8, type: 3}
+      propertyPath: AnthillstartingPosition.x
+      value: -10.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195597067139888200, guid: 59bb9c5cf294555498b331d95bb662c8, type: 3}
+      propertyPath: AnthillstartingPosition.y
+      value: -3.77
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -14,6 +14,8 @@ public class CharacterMovement : MonoBehaviour
 
     public static CharacterMovement instance;
 
+    public Animator animator;
+
 
     private bool facingRight = true;
 
@@ -79,6 +81,18 @@ public class CharacterMovement : MonoBehaviour
         rigidbody2D.velocity = Vector2.zero;
     }
 
+        private void CheckMovement()
+    {
+        // Check if the character is moving by comparing its current velocity to nearly zero
+        bool isCurrentlyMoving = rigidbody2D.velocity.sqrMagnitude > 0.001f;
+        
+        // Set the Animator's isMoving parameter
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", isCurrentlyMoving);
+        }
+    }
+
     // Method to move the character to the right for a set distance
     private const float PixelsPerUnit = 100f;
 
@@ -95,10 +109,21 @@ public class CharacterMovement : MonoBehaviour
         {
             transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / durationInSeconds);
             elapsedTime += Time.deltaTime;
+            
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", true);
+            }
             yield return null;
         }
+        
 
         transform.position = endPosition; // Ensure it ends exactly at the endPosition
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", false);
+        }
+        
     }
 
     public void addSpeed(float speedPercent){
@@ -114,6 +139,7 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+        CheckMovement();
+        animator.SetFloat("speed", hSpeed);
     }
 }

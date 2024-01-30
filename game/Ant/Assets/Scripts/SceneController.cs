@@ -4,7 +4,8 @@ public class SceneController : MonoBehaviour
 {
     public CharacterMovement characterMovement;
     public Boundaries bound;
-    public Vector3 startingPosition = new Vector3(0, 0, 0);
+    public Vector3 AnthillstartingPosition = new Vector3((float)-11.99, (float)-3.77, 0);
+    public Vector3 MasterstartingPosition = new Vector3((float)-6.37282, (float)-0.35, 0);  
     public float moveDistanceInPixels = 500f; // 500 pixels
     public float moveDurationInSeconds = 2.0f; // 2 seconds
 
@@ -31,8 +32,8 @@ public class SceneController : MonoBehaviour
             }
 
             if (characterMovement != null)
-            {
-                characterMovement.transform.position = startingPosition;
+            {          
+                characterMovement.transform.position = MasterstartingPosition;
                 characterMovement.EnableMovement();
             }
 		}
@@ -52,7 +53,7 @@ public class SceneController : MonoBehaviour
 
             if (characterMovement != null)
             {
-                characterMovement.transform.position = startingPosition;
+                characterMovement.transform.position = AnthillstartingPosition;
                 StartCoroutine(characterMovement.MoveRight(moveDistanceInPixels, moveDurationInSeconds));
             }
         }
