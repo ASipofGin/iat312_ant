@@ -2,14 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GrassCollide : MonoBehaviour
 {
-    private bool grassTouching = false;
     GameObject grassObject;
     private float destroyTime = 0;
     public float deletionTimeThreshold = 3;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,16 +20,7 @@ public class GrassCollide : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       /* if (grassTouching)
-        {
-            destroyTime += Time.deltaTime;
 
-            if (destroyTime >= deletionTimeThreshold)
-            {
-                Destroy(grassObject);
-
-            }
-        } */
     }
 
     public void OnTriggerStay2D(Collider2D other)
@@ -51,7 +43,6 @@ public class GrassCollide : MonoBehaviour
 
         }
     }
-
 
 
 }

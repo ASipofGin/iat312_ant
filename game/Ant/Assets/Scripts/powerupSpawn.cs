@@ -24,7 +24,7 @@ public class powerupSpawn : MonoBehaviour
     {
        if (powerups != null && powerups.Length > 0)
        {
-          spawnPowerup();
+          //spawnPowerup();
        }
     }
 
