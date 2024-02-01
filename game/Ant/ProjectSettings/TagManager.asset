@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Grass
   - speedPowerup
+  - Rock
   layers:
   - Default
   - TransparentFX

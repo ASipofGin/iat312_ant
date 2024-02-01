@@ -57,6 +57,17 @@ public class Card : MonoBehaviour, IPointerClickHandler
 
         }
 
+        if (cardName == "Card Speed 20"){
+            if (player != null)
+                {
+                    characterMovement = player.GetComponent<CharacterMovement>();
+
+                    characterMovement.addSpeed((float)1.20);
+
+                }
+
+        }
+
         // Example: if your game has a method to increase player health, call it here
         // Player.IncreaseHealth(healthBoostAmount);
     }

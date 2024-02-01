@@ -2360,6 +2360,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1652434666941113449, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
+      propertyPath: spawnTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652434666941113449, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
       propertyPath: tilesets.Array.size
       value: 1
       objectReference: {fileID: 0}
