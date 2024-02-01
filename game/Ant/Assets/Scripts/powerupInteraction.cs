@@ -17,7 +17,7 @@ public class powerupInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("characterMovement");
+
     }
 
     public void OnTriggerEnter2D(Collider2D other)
