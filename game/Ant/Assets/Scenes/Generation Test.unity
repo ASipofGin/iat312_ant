@@ -3592,6 +3592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass1 (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerupSpawnRate
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14932,7 +14936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1551954261312297664, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5574686632673515711, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
       propertyPath: m_LocalPosition.x

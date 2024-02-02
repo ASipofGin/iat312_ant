@@ -201,13 +201,17 @@ PrefabInstance:
       value: grass1 (370)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -271,13 +275,17 @@ PrefabInstance:
       value: grass1 (528)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -341,13 +349,17 @@ PrefabInstance:
       value: grass1 (24)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -411,13 +423,17 @@ PrefabInstance:
       value: grass1 (425)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -481,13 +497,17 @@ PrefabInstance:
       value: grass1 (491)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -551,13 +571,17 @@ PrefabInstance:
       value: grass1 (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -621,13 +645,17 @@ PrefabInstance:
       value: grass1 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -691,13 +719,17 @@ PrefabInstance:
       value: grass1 (44)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -761,13 +793,17 @@ PrefabInstance:
       value: grass1 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -831,13 +867,17 @@ PrefabInstance:
       value: grass1 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -901,13 +941,17 @@ PrefabInstance:
       value: grass1 (436)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -971,13 +1015,17 @@ PrefabInstance:
       value: grass1 (32)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1041,13 +1089,17 @@ PrefabInstance:
       value: grass1 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1111,13 +1163,17 @@ PrefabInstance:
       value: grass1 (521)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1181,13 +1237,17 @@ PrefabInstance:
       value: grass1 (368)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1251,13 +1311,17 @@ PrefabInstance:
       value: grass1 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1321,13 +1385,17 @@ PrefabInstance:
       value: grass1 (390)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1391,13 +1459,17 @@ PrefabInstance:
       value: grass1 (30)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1461,13 +1533,17 @@ PrefabInstance:
       value: grass1 (396)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1531,13 +1607,17 @@ PrefabInstance:
       value: grass1 (503)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1601,13 +1681,17 @@ PrefabInstance:
       value: grass1 (398)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1671,13 +1755,17 @@ PrefabInstance:
       value: grass1 (527)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1741,13 +1829,17 @@ PrefabInstance:
       value: grass1 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1811,13 +1903,17 @@ PrefabInstance:
       value: grass1 (461)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1881,13 +1977,17 @@ PrefabInstance:
       value: grass1 (362)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1951,13 +2051,17 @@ PrefabInstance:
       value: grass1 (440)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2021,13 +2125,17 @@ PrefabInstance:
       value: grass1 (347)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2091,13 +2199,17 @@ PrefabInstance:
       value: grass1 (504)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2161,13 +2273,17 @@ PrefabInstance:
       value: grass1 (375)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2231,13 +2347,17 @@ PrefabInstance:
       value: grass1 (361)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2301,13 +2421,17 @@ PrefabInstance:
       value: grass1 (376)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2371,13 +2495,17 @@ PrefabInstance:
       value: grass1 (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2441,13 +2569,17 @@ PrefabInstance:
       value: grass1 (42)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2511,13 +2643,17 @@ PrefabInstance:
       value: grass1 (526)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2581,13 +2717,17 @@ PrefabInstance:
       value: grass1 (47)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2651,13 +2791,17 @@ PrefabInstance:
       value: grass1 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2721,13 +2865,17 @@ PrefabInstance:
       value: grass1 (29)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2791,13 +2939,17 @@ PrefabInstance:
       value: grass1 (492)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2861,13 +3013,17 @@ PrefabInstance:
       value: grass1 (441)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2931,13 +3087,17 @@ PrefabInstance:
       value: grass1 (524)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3001,13 +3161,17 @@ PrefabInstance:
       value: grass1 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3071,13 +3235,17 @@ PrefabInstance:
       value: grass1 (34)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3141,13 +3309,17 @@ PrefabInstance:
       value: grass1 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3211,13 +3383,17 @@ PrefabInstance:
       value: grass1 (377)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3281,13 +3457,17 @@ PrefabInstance:
       value: grass1 (419)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3351,13 +3531,17 @@ PrefabInstance:
       value: grass1 (42)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3421,13 +3605,17 @@ PrefabInstance:
       value: grass1 (438)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3491,13 +3679,17 @@ PrefabInstance:
       value: grass1 (397)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3561,13 +3753,17 @@ PrefabInstance:
       value: grass1 (21)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3631,13 +3827,17 @@ PrefabInstance:
       value: grass1 (344)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3701,13 +3901,17 @@ PrefabInstance:
       value: grass1 (349)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3771,13 +3975,17 @@ PrefabInstance:
       value: grass1 (30)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3841,13 +4049,17 @@ PrefabInstance:
       value: grass1 (348)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3911,13 +4123,17 @@ PrefabInstance:
       value: grass1 (24)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3981,13 +4197,17 @@ PrefabInstance:
       value: grass1 (479)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4051,13 +4271,17 @@ PrefabInstance:
       value: grass1 (401)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4121,13 +4345,17 @@ PrefabInstance:
       value: grass1 (496)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4191,13 +4419,17 @@ PrefabInstance:
       value: grass1 (380)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4261,13 +4493,17 @@ PrefabInstance:
       value: grass1 (439)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4331,13 +4567,17 @@ PrefabInstance:
       value: grass1 (371)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4401,13 +4641,17 @@ PrefabInstance:
       value: grass1 (46)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4471,13 +4715,17 @@ PrefabInstance:
       value: grass1 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4541,13 +4789,17 @@ PrefabInstance:
       value: grass1 (350)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4611,13 +4863,17 @@ PrefabInstance:
       value: grass1 (32)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4681,13 +4937,17 @@ PrefabInstance:
       value: grass1 (529)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4751,13 +5011,17 @@ PrefabInstance:
       value: grass1 (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4821,13 +5085,17 @@ PrefabInstance:
       value: grass1 (381)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4891,13 +5159,17 @@ PrefabInstance:
       value: grass1 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4961,13 +5233,17 @@ PrefabInstance:
       value: grass1 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5031,13 +5307,17 @@ PrefabInstance:
       value: grass1 (498)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5101,13 +5381,17 @@ PrefabInstance:
       value: grass1 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5171,13 +5455,17 @@ PrefabInstance:
       value: grass1 (418)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5241,13 +5529,17 @@ PrefabInstance:
       value: grass1 (41)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5311,13 +5603,17 @@ PrefabInstance:
       value: grass1 (459)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5381,13 +5677,17 @@ PrefabInstance:
       value: grass1 (26)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5451,13 +5751,17 @@ PrefabInstance:
       value: grass1 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5521,13 +5825,17 @@ PrefabInstance:
       value: grass1 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5591,13 +5899,17 @@ PrefabInstance:
       value: grass1 (520)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5661,13 +5973,17 @@ PrefabInstance:
       value: grass1 (384)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5731,13 +6047,17 @@ PrefabInstance:
       value: grass1 (25)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5801,13 +6121,17 @@ PrefabInstance:
       value: grass1 (30)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5871,13 +6195,17 @@ PrefabInstance:
       value: grass1 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5941,13 +6269,17 @@ PrefabInstance:
       value: grass1 (500)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6011,13 +6343,17 @@ PrefabInstance:
       value: grass1 (366)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6081,13 +6417,17 @@ PrefabInstance:
       value: grass1 (378)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6151,13 +6491,17 @@ PrefabInstance:
       value: grass1 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6221,13 +6565,17 @@ PrefabInstance:
       value: grass1 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6291,13 +6639,17 @@ PrefabInstance:
       value: grass1 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6361,13 +6713,17 @@ PrefabInstance:
       value: grass1 (365)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6431,13 +6787,17 @@ PrefabInstance:
       value: grass1 (36)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6501,13 +6861,17 @@ PrefabInstance:
       value: grass1 (353)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6571,13 +6935,17 @@ PrefabInstance:
       value: grass1 (437)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6641,13 +7009,17 @@ PrefabInstance:
       value: grass1 (471)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6711,13 +7083,17 @@ PrefabInstance:
       value: grass1 (431)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6781,13 +7157,17 @@ PrefabInstance:
       value: grass1 (411)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6851,13 +7231,17 @@ PrefabInstance:
       value: grass1 (489)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6921,13 +7305,17 @@ PrefabInstance:
       value: grass1 (420)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6991,13 +7379,17 @@ PrefabInstance:
       value: grass1 (23)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7061,13 +7453,17 @@ PrefabInstance:
       value: grass1 (24)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7131,13 +7527,17 @@ PrefabInstance:
       value: grass1 (363)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7201,13 +7601,17 @@ PrefabInstance:
       value: grass1 (47)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7271,13 +7675,17 @@ PrefabInstance:
       value: grass1 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7341,13 +7749,17 @@ PrefabInstance:
       value: grass1 (502)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7411,13 +7823,17 @@ PrefabInstance:
       value: grass1 (42)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7481,13 +7897,17 @@ PrefabInstance:
       value: grass1 (27)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7551,13 +7971,17 @@ PrefabInstance:
       value: grass1 (460)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7621,13 +8045,17 @@ PrefabInstance:
       value: grass1 (501)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7691,13 +8119,17 @@ PrefabInstance:
       value: grass1 (487)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7761,13 +8193,17 @@ PrefabInstance:
       value: grass1 (523)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7831,13 +8267,17 @@ PrefabInstance:
       value: grass1 (26)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7901,13 +8341,17 @@ PrefabInstance:
       value: grass1 (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7971,13 +8415,17 @@ PrefabInstance:
       value: grass1 (352)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8041,13 +8489,17 @@ PrefabInstance:
       value: grass1 (391)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8111,13 +8563,17 @@ PrefabInstance:
       value: grass1 (41)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8181,13 +8637,17 @@ PrefabInstance:
       value: grass1 (417)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8251,13 +8711,17 @@ PrefabInstance:
       value: grass1 (525)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8321,13 +8785,17 @@ PrefabInstance:
       value: grass1 (48)
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.size
-      value: 2
+      propertyPath: powerupSpawnRate
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
-      propertyPath: powerups.Array.data[1]
+      propertyPath: powerups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerups.Array.data[2]
       value: 
-      objectReference: {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+      objectReference: {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -102,7 +102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerups:
   - {fileID: 4677575806232190516, guid: 96133548991c4ed4a9ccd2a96fa98db9, type: 3}
-  powerupSpawnRate: 1
+  - {fileID: 5500091745381653125, guid: 4aef67364ca981747941aac49ab454ad, type: 3}
+  - {fileID: 1114663161328952199, guid: 9403fb1768810434aa698db57a9228eb, type: 3}
+  powerupSpawnRate: 20
 --- !u!70 &6215957045242466494
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
