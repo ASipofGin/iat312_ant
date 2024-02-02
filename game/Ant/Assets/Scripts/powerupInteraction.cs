@@ -18,7 +18,7 @@ public class powerupInteraction : MonoBehaviour
     {
         GameObject statsObj = GameObject.FindGameObjectWithTag("GameController");
         stats = statsObj.GetComponent<Stats>();
-        powerupDur = stats.appleDurrationMult();
+        powerupDur = stats.powerDurrationMult();
         powerupDuration = powerupDuration * powerupDur;
     }
     void Start()

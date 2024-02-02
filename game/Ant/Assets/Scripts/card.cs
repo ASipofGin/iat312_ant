@@ -7,6 +7,8 @@ public class Card : MonoBehaviour, IPointerClickHandler
     // Example properties - you can add more as needed
     public CharacterMovement characterMovement;
     public GrassCollide grassCollide;
+
+    public Stats statsObj;
     public string cardName;
     public string description;
     public Sprite bgImage; // The image on the card
@@ -88,6 +90,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
         Debug.Log("Applying effect of " + cardName);
         
         GameObject player = GameObject.FindWithTag("Player"); // Assuming the player has the tag "Player"
+        GameObject statsObj = GameObject.FindWithTag("GameController"); // Assuming the player has the tag "Player"
 
         if (cardName == "Speed"){
             if (player != null)
@@ -104,6 +107,17 @@ public class Card : MonoBehaviour, IPointerClickHandler
             if (player != null)
                 {
                     grassCollide = player.GetComponent<GrassCollide>();
+
+                    grassCollide.reduceDeletion((float)(100-percentage)/100);
+
+                }
+
+        }
+
+        if (cardName == "Powerup"){
+            if (statsObj != null)
+                {
+                    statsObj = statsObj.GetComponent<Stats>();
 
                     grassCollide.reduceDeletion((float)(100-percentage)/100);
 

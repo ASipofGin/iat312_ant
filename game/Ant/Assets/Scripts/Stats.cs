@@ -37,11 +37,11 @@ public class Stats : MonoBehaviour
         return antlionSpdMult;
     }
 
-    public void appleSpeedUp()
+    public void powerUp(float percentage)
     {
-        powerupDur = powerupDur * (float)1.2;
+        powerupDur = powerupDur * (float)percentage;
     }
-    public float appleDurrationMult()
+    public float powerDurrationMult()
     {
         return powerupDur;
     }
