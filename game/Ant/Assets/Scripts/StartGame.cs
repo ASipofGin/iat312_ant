@@ -7,6 +7,7 @@ public class StartGame : MonoBehaviour
 {
     private GameObject distanceCounter;
     private GameObject titleScreen;
+    private GameObject wasd;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,8 @@ public class StartGame : MonoBehaviour
         // Find the game objects
         distanceCounter = GameObject.Find("Distance Counter"); // Replace with the exact name of your distance counter object
         titleScreen = GameObject.Find("TitleScreen"); // Replace with the exact name of your title screen object
+        wasd = GameObject.Find("wasd"); // Replace with the exact name of your title screen object
+
 
         // Check if the GameObjects were found
         if (distanceCounter == null)
@@ -30,6 +33,15 @@ public class StartGame : MonoBehaviour
         {
             distanceCounter.SetActive(false);
         }
+        
+        if (wasd != null)
+        {
+            wasd.SetActive(false);
+        }
+
+
+
+        
 
         Time.timeScale = 0.0f;
 
@@ -50,6 +62,11 @@ public class StartGame : MonoBehaviour
         if (distanceCounter != null)
         {
             distanceCounter.SetActive(true);
+        }
+
+        if (wasd != null)
+        {
+            wasd.SetActive(true);
         }
     }
 }
