@@ -12,6 +12,7 @@ TagManager:
   - MusicPlayer
   - DistanceCounter
   - TitleScreen
+  - hastePowerup
   layers:
   - Default
   - TransparentFX
