@@ -90,7 +90,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
         Debug.Log("Applying effect of " + cardName);
         
         GameObject player = GameObject.FindWithTag("Player"); // Assuming the player has the tag "Player"
-        GameObject statsObj = GameObject.FindWithTag("GameController"); // Assuming the player has the tag "Player"
+        GameObject stats = GameObject.FindWithTag("GameController"); // Assuming the player has the tag "Player"
 
         if (cardName == "Speed"){
             if (player != null)
@@ -115,11 +115,13 @@ public class Card : MonoBehaviour, IPointerClickHandler
         }
 
         if (cardName == "Powerup"){
-            if (statsObj != null)
+            if (stats != null)
                 {
-                    statsObj = statsObj.GetComponent<Stats>();
+                    statsObj = stats.GetComponent<Stats>();
 
-                    grassCollide.reduceDeletion((float)(100-percentage)/100);
+                    statsObj.powerUp((float)(100+percentage)/100);
+
+                    Debug.Log("Increased powerup by " + (float)(100+percentage)/100);
 
                 }
 

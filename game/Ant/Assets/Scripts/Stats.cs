@@ -7,6 +7,8 @@ public class Stats : MonoBehaviour
     public float antlionSpdMult = 1f;
     public float powerupDur = 1f;
 
+    
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject); // Prevent the music player from being destroyed on load
@@ -39,7 +41,7 @@ public class Stats : MonoBehaviour
 
     public void powerUp(float percentage)
     {
-        powerupDur = powerupDur * (float)percentage;
+        powerupDur = powerupDur * percentage;
     }
     public float powerDurrationMult()
     {
