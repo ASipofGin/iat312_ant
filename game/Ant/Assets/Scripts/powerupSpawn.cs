@@ -6,6 +6,7 @@ using UnityEngine;
 public class powerupSpawn : MonoBehaviour
 {
     public GameObject[] powerups;
+    public int powerupSpawnRate = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,12 @@ public class powerupSpawn : MonoBehaviour
     {
        if (powerups != null && powerups.Length > 0)
        {
-          //spawnPowerup();
+            int spawnChance = UnityEngine.Random.Range(0,100);
+
+            if (spawnChance <= powerupSpawnRate)
+            {
+                spawnPowerup();
+            }
        }
     }
 
