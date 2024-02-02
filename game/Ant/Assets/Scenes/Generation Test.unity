@@ -331,7 +331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8055165633867328265, guid: 5183b3af77f4a8c4288caa9e4cc42297, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 175.1
+      value: 171.23
       objectReference: {fileID: 0}
     - target: {fileID: 8055165633867328265, guid: 5183b3af77f4a8c4288caa9e4cc42297, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2325,7 +2325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1101424578698219997, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1101424578698219997, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2362,6 +2362,14 @@ PrefabInstance:
     - target: {fileID: 1652434666941113449, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
       propertyPath: spawnTimer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652434666941113449, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
+      propertyPath: tileSpawner
+      value: 
+      objectReference: {fileID: 6597962350218077261, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
+    - target: {fileID: 1652434666941113449, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
+      propertyPath: spawnInterval
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1652434666941113449, guid: 281c61eb11fc8e34ab0bacaf5f370d00, type: 3}
       propertyPath: tilesets.Array.size
@@ -3307,6 +3315,10 @@ PrefabInstance:
     - target: {fileID: 5869875924844032514, guid: 7c481396161b86449a8194a827917947, type: 3}
       propertyPath: m_Name
       value: grass1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844286723196074362, guid: 7c481396161b86449a8194a827917947, type: 3}
+      propertyPath: powerupSpawnRate
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

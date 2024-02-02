@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 public class powerupInteraction : MonoBehaviour
@@ -8,11 +9,21 @@ public class powerupInteraction : MonoBehaviour
     public CharacterMovement characterMovement;
     public bool hasPowerup = false;
     public float powerupDuration = 5.0f;
+    [SerializeField] private Stats stats;
+    [SerializeField] private float appleSpdDur;
     GameObject speedObject;
     // Start is called before the first frame update
+
+    public void Awake()
+    {
+        GameObject statsObj = GameObject.FindGameObjectWithTag("GameController");
+        stats = statsObj.GetComponent<Stats>();
+        appleSpdDur = stats.appleDurrationMult();
+        powerupDuration = powerupDuration * appleSpdDur;
+    }
     void Start()
     {
-
+        GameObject player = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame

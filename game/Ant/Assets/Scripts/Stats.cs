@@ -5,6 +5,7 @@ using UnityEngine;
 public class Stats : MonoBehaviour
 {
     public float antlionSpdMult = 1f;
+    public float appleSpdDur = 1f;
 
     private void Awake()
     {
@@ -34,5 +35,14 @@ public class Stats : MonoBehaviour
 
     public float antLionSpeedMult(){
         return antlionSpdMult;
+    }
+
+    public void appleSpeedUp()
+    {
+        appleSpdDur = appleSpdDur * (float)1.2;
+    }
+    public float appleDurrationMult()
+    {
+        return appleSpdDur;
     }
 }
