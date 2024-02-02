@@ -530,6 +530,10 @@ PrefabInstance:
       value: 461.2
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgId.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: startPosition.x
       value: -364
       objectReference: {fileID: 0}
@@ -538,8 +542,32 @@ PrefabInstance:
       value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: sbgId.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgId.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgId.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: bgId.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: bgImages.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: sbgId.Array.data[0]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: sbgImages.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardImages.Array.size
@@ -548,6 +576,10 @@ PrefabInstance:
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: iconImages.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: scardNames.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: bgImages.Array.data[0]
@@ -559,6 +591,26 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 6ac6ad606912ff244b350f7e17ae9416, type: 3}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: bgImages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 412deac5130b8bc4cbf007c8bd3df697, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: siconImages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: cardNames.Array.data[0]
+      value: Speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: cardNames.Array.data[1]
+      value: Haste
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: cardNames.Array.data[2]
+      value: Powerup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: sbgImages.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: f1dbd8afe4bf0e34c96eb220288ba7e0, type: 3}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
@@ -584,17 +636,33 @@ PrefabInstance:
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: iconImages.Array.data[2]
       value: 
+      objectReference: {fileID: 21300000, guid: 9a139959388ed7043a95ef38e815c867, type: 3}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: scardNames.Array.data[0]
+      value: Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: siconImages.Array.data[0]
+      value: 
       objectReference: {fileID: 21300000, guid: 749a75fc82c853b4eb98cd3b5e42ca94, type: 3}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: scardDescriptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardDescriptions.Array.data[0]
-      value: Boost your characters speed by 30%
+      value: 'Boost your characters speed by '
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardDescriptions.Array.data[1]
-      value: Increase your characters strength by 30%
+      value: 'Increase your characters strength by '
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardDescriptions.Array.data[2]
+      value: 'Increase power-up effectiveness by '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
+      propertyPath: scardDescriptions.Array.data[0]
       value: Its a stick...
       objectReference: {fileID: 0}
     - target: {fileID: 3666163717921837763, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}

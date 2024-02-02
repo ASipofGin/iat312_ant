@@ -6,10 +6,14 @@ public class Card : MonoBehaviour, IPointerClickHandler
 {
     // Example properties - you can add more as needed
     public CharacterMovement characterMovement;
+    public GrassCollide grassCollide;
     public string cardName;
     public string description;
     public Sprite bgImage; // The image on the card
+    public string bgId;
     public Sprite iconImage; // The ICON on the card
+
+    public int percentage;
     
 
     // This method is called when the card is clicked
@@ -38,46 +42,14 @@ public class Card : MonoBehaviour, IPointerClickHandler
     }
 
     // A method to define what the card does
-    void ApplyCardEffect()
-    {
-        // Implement the effect logic here
-        // This could be anything from increasing player stats, unlocking abilities, etc.
-        Debug.Log("Applying effect of " + cardName);
-        
-        GameObject player = GameObject.FindWithTag("Player"); // Assuming the player has the tag "Player"
-
-        if (cardName == "Card Speed 20"){
-            if (player != null)
-                {
-                    characterMovement = player.GetComponent<CharacterMovement>();
-
-                    characterMovement.addSpeed((float)1.20);
-
-                }
-
-        }
-
-        if (cardName == "Card Speed 20"){
-            if (player != null)
-                {
-                    characterMovement = player.GetComponent<CharacterMovement>();
-
-                    characterMovement.addSpeed((float)1.20);
-
-                }
-
-        }
-
-        // Example: if your game has a method to increase player health, call it here
-        // Player.IncreaseHealth(healthBoostAmount);
-    }
 
     // Optionally, you can have methods to set up the card properties
-    public void SetupCard(string name, string desc, Sprite bg, Sprite icon)
+    public void SetupCard(string name, string desc, Sprite bg, string id, Sprite icon)
     {
         cardName = name;
         description = desc;
         bgImage = bg;
+        percentage = int.Parse(id) * 10;
         iconImage = icon;
 
         // If your card has a UI Image component, you can set its sprite like this:
@@ -86,7 +58,12 @@ public class Card : MonoBehaviour, IPointerClickHandler
         Text descriptionText = GetComponentInChildren<Text>();
         if (descriptionText != null)
         {
-            descriptionText.text = description;
+            if (percentage < 90){
+                descriptionText.text = description + percentage + " %";
+            }else{
+                descriptionText.text = description;
+            }
+            
         }
         else
         {
@@ -103,4 +80,39 @@ public class Card : MonoBehaviour, IPointerClickHandler
             Debug.LogError("Description Text component not found in the children of the card prefab.");
         }
     }
+
+        void ApplyCardEffect()
+    {
+        // Implement the effect logic here
+        // This could be anything from increasing player stats, unlocking abilities, etc.
+        Debug.Log("Applying effect of " + cardName);
+        
+        GameObject player = GameObject.FindWithTag("Player"); // Assuming the player has the tag "Player"
+
+        if (cardName == "Speed"){
+            if (player != null)
+                {
+                    characterMovement = player.GetComponent<CharacterMovement>();
+
+                    characterMovement.addSpeed((float)(100+percentage)/100);
+
+                }
+
+        }
+
+        if (cardName == "Haste"){
+            if (player != null)
+                {
+                    grassCollide = player.GetComponent<GrassCollide>();
+
+                    grassCollide.reduceDeletion((float)(100-percentage)/100);
+
+                }
+
+        }
+
+        // Example: if your game has a method to increase player health, call it here
+        // Player.IncreaseHealth(healthBoostAmount);
+    }
+
 }

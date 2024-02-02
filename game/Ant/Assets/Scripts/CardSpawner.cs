@@ -1,50 +1,3 @@
-// using UnityEngine;
-// using System.Collections;
-
-// public class CardSpawner : MonoBehaviour
-// {
-//     public GameObject cardPrefab; // Assign your card prefab in the inspector
-//     public Vector3 startPosition; // Starting position for the first card
-//     public float cardSpacing = 2.0f; // Space between the cards
-//     public float spawnDelay = 5.0f; // Time in seconds before the cards spawn, adjustable in the editor
-
-//     // Example card data - replace this with your actual card data
-//     [SerializeField]
-//     private string[] cardNames = { "Card 1", "Card 2", "Card 3" };
-//     [SerializeField]
-//     private string[] cardDescriptions = { "Description 1", "Description 2", "Description 3" };
-//     [SerializeField]
-//     private Sprite[] bgImages; // Assuming you have card images, assign them here
-//     [SerializeField]
-//     private Sprite[] iconImages; // Assuming you have card images, assign them here
-    
-
-//     void Start()
-//     {
-//         StartCoroutine(SpawnCardsAfterDelay());
-//     }
-
-//     IEnumerator SpawnCardsAfterDelay()
-//     {
-//         // Wait for the specified delay time before continuing
-//         yield return new WaitForSeconds(spawnDelay);
-
-//         // Now spawn the cards
-//         for (int i = 0; i < 3; i++)
-//         {
-//             // Instantiate the card
-//             GameObject card = Instantiate(cardPrefab, startPosition + new Vector3(cardSpacing * i, 0, 0), Quaternion.identity);
-//             card.transform.SetParent(this.transform, false); // Set the card's parent to this object (for organization)
-
-//             // Setup the card with its properties
-//             Card cardScript = card.GetComponent<Card>();
-//             if (cardScript != null)
-//             {
-//                 cardScript.SetupCard(cardNames[i], cardDescriptions[i], bgImages[i], iconImages[i]);
-//             }
-//         }
-//     }
-// }
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -56,6 +9,12 @@ public class CardSpawner : MonoBehaviour
     public float cardSpacing = 2.0f;
     public float spawnDelay = 5.0f;
 
+    
+    [SerializeField]
+    private float SpecialCardChance = 0.4f; // 40% chance for a special card
+
+
+
     [SerializeField]
     private string[] cardNames = { "Card 1", "Card 2", "Card 3" };
     [SerializeField]
@@ -63,8 +22,20 @@ public class CardSpawner : MonoBehaviour
     [SerializeField]
     private Sprite[] bgImages;
     [SerializeField]
+    private string[] bgId;
+    [SerializeField]
     private Sprite[] iconImages;
 
+    [SerializeField]
+    private string[] scardNames = { "SCard 1", "SCard 2", "SCard 3" };
+    [SerializeField]
+    private string[] scardDescriptions = { "SDescription 1", "SDescription 2", "SDescription 3" };
+    [SerializeField]
+    private Sprite[] sbgImages;
+    [SerializeField]
+    private string[] sbgId;
+    [SerializeField]
+    private Sprite[] siconImages;
     void Start()
     {
         StartCoroutine(SpawnCardsAfterDelay());
@@ -75,21 +46,33 @@ public class CardSpawner : MonoBehaviour
         yield return new WaitForSeconds(spawnDelay);
 
         List<int> indices = GetShuffledIndices(cardNames.Length);
+        int bgImageIndex = Random.Range(0, bgImages.Length); // Random index for background image, same for all regular cards
+
         for (int i = 0; i < indices.Count; i++)
         {
             GameObject card = Instantiate(cardPrefab, startPosition + new Vector3(cardSpacing * i, 0, 0), Quaternion.identity);
             card.transform.SetParent(this.transform, false);
 
-            int index = indices[i];
-            int bgImageIndex = Random.Range(0, bgImages.Length); // Random index for background image
-
             Card cardScript = card.GetComponent<Card>();
             if (cardScript != null)
             {
-                cardScript.SetupCard(cardNames[index], cardDescriptions[index], bgImages[bgImageIndex], iconImages[index]);
+                if (i == 2 && Random.value < SpecialCardChance)
+                {
+                    // Use special card arrays
+                    int sIndex = Random.Range(0, scardNames.Length);
+                    cardScript.SetupCard(scardNames[sIndex], scardDescriptions[sIndex], sbgImages[0], sbgId[0], siconImages[sIndex]);
+                }
+                else
+                {
+                    // Use regular card arrays
+                    int index = indices[i];
+                    cardScript.SetupCard(cardNames[index], cardDescriptions[index], bgImages[bgImageIndex], bgId[bgImageIndex], iconImages[index]);
+                }
             }
         }
     }
+
+
 
     private List<int> GetShuffledIndices(int length)
     {

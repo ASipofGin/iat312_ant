@@ -44,5 +44,12 @@ public class GrassCollide : MonoBehaviour
         }
     }
 
+    
+    public void reduceDeletion(float deletionPercent){
+        deletionTimeThreshold = deletionTimeThreshold * deletionPercent;
+        Debug.Log("deletion time shortened");
+    }
+
+
 
 }
