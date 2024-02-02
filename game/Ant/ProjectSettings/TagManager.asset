@@ -13,6 +13,7 @@ TagManager:
   - DistanceCounter
   - TitleScreen
   - hastePowerup
+  - Mud
   layers:
   - Default
   - TransparentFX
