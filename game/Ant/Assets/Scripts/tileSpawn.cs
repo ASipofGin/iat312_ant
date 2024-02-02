@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -28,7 +29,7 @@ public class tileSpawn : MonoBehaviour
         {
                 spawnState = true;
 
-                int randomTileIndex = Random.Range(0, tilesets.Length);
+            int randomTileIndex = UnityEngine.Random.Range(0, tilesets.Length);
                 Instantiate(tilesets[randomTileIndex], new Vector3(transform.position.x + 50, 0, 0), transform.rotation);
                 Instantiate(gameObject, new Vector3(transform.position.x + 50, 0, 0), transform.rotation);
 
