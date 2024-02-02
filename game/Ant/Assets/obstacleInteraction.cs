@@ -35,7 +35,7 @@ public class obstacleInteraction : MonoBehaviour
 
         if (other.CompareTag("Mud"))
         {
-            Invoke("stopSlow", 1f); ;
+            Invoke("stopSlow", 0.5f); ;
 
 
         }

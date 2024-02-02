@@ -5,8 +5,9 @@ using UnityEngine;
 public class Stats : MonoBehaviour
 {
     public float antlionSpdMult = 1f;
+    public float stgCount = 0;
 
-    
+
 
     private void Awake()
     {
@@ -36,6 +37,21 @@ public class Stats : MonoBehaviour
 
     public float antLionSpeedMult(){
         return antlionSpdMult;
+    }
+
+    public void addStage()
+    {
+        stgCount += 1f;
+    }
+
+    public void stageReset()
+    {
+        stgCount = 0f;
+    }
+
+    public float stageCount()
+    {
+        return stgCount;
     }
 
 

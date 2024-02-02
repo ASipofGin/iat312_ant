@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5574686632673515711}
   - component: {fileID: 1551954261312297664}
   - component: {fileID: 3623684053518370276}
+  - component: {fileID: 3244679737635167671}
   m_Layer: 0
   m_Name: mud
   m_TagString: Mud
@@ -130,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7605982, y: 0.26154876}
   m_EdgeRadius: 0
+--- !u!114 &3244679737635167671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114663161328952199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5ad55aa9622314987af8984734b8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftOffset: 10
