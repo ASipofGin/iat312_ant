@@ -1134,6 +1134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Distance Counter
       objectReference: {fileID: 0}
+    - target: {fileID: 8586419716693511657, guid: 9620beb1fdd99834e90256c4b5b24abc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1767,8 +1771,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1237647190}
   - {fileID: 462776148}
+  - {fileID: 1237647190}
   - {fileID: 1641362161}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

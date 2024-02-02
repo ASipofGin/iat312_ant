@@ -5,7 +5,6 @@ using UnityEngine;
 public class Stats : MonoBehaviour
 {
     public float antlionSpdMult = 1f;
-    public float powerupDur = 1f;
 
     
 
@@ -39,12 +38,5 @@ public class Stats : MonoBehaviour
         return antlionSpdMult;
     }
 
-    public void powerUp(float percentage)
-    {
-        powerupDur = powerupDur * percentage;
-    }
-    public float powerDurrationMult()
-    {
-        return powerupDur;
-    }
+
 }

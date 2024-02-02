@@ -8,7 +8,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
     public CharacterMovement characterMovement;
     public GrassCollide grassCollide;
 
-    public Stats statsObj;
+    public powerupInteraction powerupInteraction;
     public string cardName;
     public string description;
     public Sprite bgImage; // The image on the card
@@ -90,7 +90,6 @@ public class Card : MonoBehaviour, IPointerClickHandler
         Debug.Log("Applying effect of " + cardName);
         
         GameObject player = GameObject.FindWithTag("Player"); // Assuming the player has the tag "Player"
-        GameObject stats = GameObject.FindWithTag("GameController"); // Assuming the player has the tag "Player"
 
         if (cardName == "Speed"){
             if (player != null)
@@ -115,13 +114,13 @@ public class Card : MonoBehaviour, IPointerClickHandler
         }
 
         if (cardName == "Powerup"){
-            if (stats != null)
+            if (player != null)
                 {
-                    statsObj = stats.GetComponent<Stats>();
+                    powerupInteraction = player.GetComponent<powerupInteraction>();
 
-                    statsObj.powerUp((float)(100+percentage)/100);
+                    powerupInteraction.updateDur((float)(100+percentage)/100);
 
-                    Debug.Log("Increased powerup by " + (float)(100+percentage)/100);
+
 
                 }
 

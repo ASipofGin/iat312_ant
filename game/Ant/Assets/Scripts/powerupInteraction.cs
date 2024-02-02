@@ -9,21 +9,17 @@ public class powerupInteraction : MonoBehaviour
     public CharacterMovement characterMovement;
     public bool hasPowerup = false;
     public float powerupDuration = 5.0f;
-    [SerializeField] private Stats stats;
     [SerializeField] private float powerupDur;
     GameObject speedObject;
     // Start is called before the first frame update
 
     public void Awake()
     {
-        GameObject statsObj = GameObject.FindGameObjectWithTag("GameController");
-        stats = statsObj.GetComponent<Stats>();
-        powerupDur = stats.powerDurrationMult();
-        powerupDuration = powerupDuration * powerupDur;
+
     }
     void Start()
     {
-        GameObject player = GameObject.FindWithTag("Player");
+
     }
 
     // Update is called once per frame
@@ -70,6 +66,11 @@ public class powerupInteraction : MonoBehaviour
         characterMovement = player.GetComponent<CharacterMovement>();
 
         characterMovement.addSpeed((float)0.91);
+    }
+
+    public void updateDur(float durPercent){
+
+        powerupDuration = powerupDuration * durPercent;
     }
     
 }
