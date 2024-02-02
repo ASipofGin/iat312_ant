@@ -10,7 +10,7 @@ public class powerupInteraction : MonoBehaviour
     public bool hasPowerup = false;
     public float powerupDuration = 5.0f;
     [SerializeField] private Stats stats;
-    [SerializeField] private float appleSpdDur;
+    [SerializeField] private float powerupDur;
     GameObject speedObject;
     // Start is called before the first frame update
 
@@ -18,8 +18,8 @@ public class powerupInteraction : MonoBehaviour
     {
         GameObject statsObj = GameObject.FindGameObjectWithTag("GameController");
         stats = statsObj.GetComponent<Stats>();
-        appleSpdDur = stats.appleDurrationMult();
-        powerupDuration = powerupDuration * appleSpdDur;
+        powerupDur = stats.appleDurrationMult();
+        powerupDuration = powerupDuration * powerupDur;
     }
     void Start()
     {
