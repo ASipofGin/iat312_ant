@@ -40,17 +40,4 @@ public class EnemyGameOver : MonoBehaviour
         }
     }
 
-    public void RestartGame()
-    {
-        // Reset the game state
-        Time.timeScale = 1;
-
-        // Resume the background music if an AudioSource is found
-
-        // Load the first scene without unloading "Do Not Destroy On Load" objects
-        SceneManager.LoadScene("YourFirstSceneName", LoadSceneMode.Additive);
-        
-        // Unload the current scene (assuming this script is attached to an object in the scene you want to unload)
-        SceneManager.UnloadSceneAsync(gameObject.scene);
-    }
 }

@@ -1,18 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class Restart : MonoBehaviour
+public class ReplayButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        // Add a click event listener to the Replay image button
+        GetComponent<Button>().onClick.AddListener(RestartGame);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RestartGame()
     {
-        
+        Time.timeScale = 1.0f;
+        // List of tags for DontDestroyOnLoad objects
+        string[] tagsToDestroy = { "Player", "GameController", "MusicPlayer" };
+
+        // Find and destroy objects with these tags
+        foreach (string tag in tagsToDestroy)
+        {
+            GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
+            foreach (GameObject obj in objectsWithTag)
+            {
+                Destroy(obj);
+            }
+        }
+
+        // Load the first scene
+        SceneManager.LoadScene(0);
     }
 }

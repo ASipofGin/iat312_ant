@@ -9,6 +9,9 @@ TagManager:
   - Grass
   - speedPowerup
   - Rock
+  - MusicPlayer
+  - DistanceCounter
+  - TitleScreen
   layers:
   - Default
   - TransparentFX
