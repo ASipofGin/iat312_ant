@@ -48,7 +48,7 @@ public class powerupSpawn : MonoBehaviour
     {
        int randomIndex = UnityEngine.Random.Range(0, powerups.Length);
 
-       Instantiate(powerups[randomIndex], new Vector3 (transform.position.x, transform.position.y -0.25f, 0), quaternion.identity );
+       Instantiate(powerups[randomIndex], new Vector3 (transform.position.x, transform.position.y -0.5f, 0), quaternion.identity );
     }
     
 

@@ -6,8 +6,12 @@ public class Stats : MonoBehaviour
 {
     public float antlionSpdMult = 1f;
     public float stgCount = 0;
+<<<<<<< Updated upstream
 
     public float distance = 11;
+=======
+    public int anthillThreshold = 1;
+>>>>>>> Stashed changes
     public int score;
 
 
@@ -46,6 +50,10 @@ public class Stats : MonoBehaviour
     {
         stgCount += 1f;
     }
+    public void addThreshold()
+    {
+        anthillThreshold += 1;
+    }
 
     public void stageReset()
     {
@@ -55,6 +63,11 @@ public class Stats : MonoBehaviour
     public float stageCount()
     {
         return stgCount;
+    }
+
+    public float threshHoldCount()
+    {
+        return anthillThreshold;
     }
 
     public void addScore(){

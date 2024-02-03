@@ -46,9 +46,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilesets:
-  - {fileID: 3280365800533925717, guid: a1cd6152cb122584cb9c2c5a0440c36c, type: 3}
+  - {fileID: 830493793029142932, guid: 16640efa37cd06042ab71811ecf904c5, type: 3}
+  anthillTiles:
+  - {fileID: 830493793029142932, guid: a49c776e22aa1e642aa067d812d18f64, type: 3}
   tileSpawner: {fileID: 6597962350218077261}
   spawnCooldown: 0
+  stagesSpawned: 0
+  stats: {fileID: 0}
+  stgCount: 0
+  stage: 0
 --- !u!61 &1049290637136350677
 BoxCollider2D:
   m_ObjectHideFlags: 0
