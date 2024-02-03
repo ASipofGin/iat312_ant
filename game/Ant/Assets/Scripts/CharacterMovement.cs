@@ -129,6 +129,10 @@ public class CharacterMovement : MonoBehaviour
         hSpeed = hSpeed * speedPercent;
     }
 
+    public void removeSpeed(float speedPercent){
+        hSpeed = hSpeed / speedPercent;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

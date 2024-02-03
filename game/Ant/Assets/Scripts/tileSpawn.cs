@@ -6,7 +6,9 @@ using UnityEngine;
 
 public class tileSpawn : MonoBehaviour
 {
-    public GameObject[] tilesets;
+    public GameObject[] easytilesets;
+    public GameObject[] mediumtilesets;
+    public GameObject[] hardtilesets;
     public GameObject[] anthillTiles;
     public GameObject tileSpawner;
 
@@ -45,9 +47,26 @@ public class tileSpawn : MonoBehaviour
                 spawnState = true;
 
                 stats.addStage();
-                int randomTileIndex = UnityEngine.Random.Range(0, tilesets.Length);
-                Instantiate(tilesets[randomTileIndex], new Vector3(transform.position.x + 10, 0, 0), transform.rotation);
-                Instantiate(gameObject, new Vector3(transform.position.x + 60, 0, 0), transform.rotation);
+
+
+                if (stageThreshold <= 3){
+                    int randomTileIndex = UnityEngine.Random.Range(0, easytilesets.Length);
+                    Instantiate(easytilesets[randomTileIndex], new Vector3(transform.position.x + 10, 0, 0), transform.rotation);
+                    Instantiate(gameObject, new Vector3(transform.position.x + 60, 0, 0), transform.rotation);
+                }else if (stageThreshold <= 5){
+                    int randomTileIndex = UnityEngine.Random.Range(0, mediumtilesets.Length);
+                    Instantiate(mediumtilesets[randomTileIndex], new Vector3(transform.position.x + 10, 0, 0), transform.rotation);
+                    Instantiate(gameObject, new Vector3(transform.position.x + 60, 0, 0), transform.rotation);
+                }else if (stageThreshold >5){
+                    int randomTileIndex = UnityEngine.Random.Range(0, hardtilesets.Length);
+                    Instantiate(hardtilesets[randomTileIndex], new Vector3(transform.position.x + 10, 0, 0), transform.rotation);
+                    Instantiate(gameObject, new Vector3(transform.position.x + 60, 0, 0), transform.rotation);
+
+                }
+
+
+
+
 
 
             }

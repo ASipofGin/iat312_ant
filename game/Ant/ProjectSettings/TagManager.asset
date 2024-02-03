@@ -16,6 +16,9 @@ TagManager:
   - Mud
   - SpeedUIElement
   - HasteUIElement
+  - PUUI
+  - Space
+  - PowerupUI
   layers:
   - Default
   - TransparentFX

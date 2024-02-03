@@ -4,12 +4,16 @@ using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class powerupInteraction : MonoBehaviour
 {
     public CharacterMovement characterMovement;
     public GrassCollide grassCollide;
+
+
     public UIPowerupDisplay uiPowerupDisplay;
+    
     public bool hasPowerup = false;
     public bool hasSpeed = false;
     public bool hasHaste = false;
@@ -24,16 +28,34 @@ public class powerupInteraction : MonoBehaviour
 
     public void Awake()
     {
- 
+        SceneManager.sceneLoaded += OnSceneLoaded; // Subscribe to the sceneLoaded event
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Try to find the uiPowerupDisplayObj every time a new scene is loaded
+        GameObject uiPowerupDisplayObj = GameObject.FindGameObjectWithTag("PowerupUI");
+        if (uiPowerupDisplayObj != null) 
+        {
+            uiPowerupDisplay = uiPowerupDisplayObj.GetComponent<UIPowerupDisplay>();
+        }
+        else
+        {
+            uiPowerupDisplay = null; // If the object is not found, set it to null
+        }
+    }
+
+     void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded; // Unsubscribe when the object is destroyed
     }
     void Start()
     {
         GameObject player = GameObject.FindWithTag("Player");
-        GameObject uiHaste = GameObject.FindWithTag("HasteUIElement");
-        GameObject uiSpeed = GameObject.FindWithTag("SpeedUIElement");
+        GameObject uiPowerupDisplayObj = GameObject.FindGameObjectWithTag("PowerupUI");
+        uiPowerupDisplay = uiPowerupDisplayObj.GetComponent<UIPowerupDisplay>();
 
-        uiPowerupDisplay = uiHaste.GetComponent<UIPowerupDisplay>();
-        uiPowerupDisplay = uiSpeed.GetComponent<UIPowerupDisplay>();
+
 
     }
 
@@ -50,6 +72,8 @@ public class powerupInteraction : MonoBehaviour
             //GameObject uiSpeed = GameObject.FindWithTag("SpeedUIElement");
 
             //uiPowerupDisplay = uiSpeed.GetComponent<UIPowerupDisplay>();
+
+
 
             uiPowerupDisplay.hideSpeedUI();
 
@@ -82,12 +106,6 @@ public class powerupInteraction : MonoBehaviour
             hasSpeed = true;
             hasHaste = false;
 
-            GameObject uiHaste = GameObject.FindWithTag("HasteUIElement");
-            GameObject uiSpeed = GameObject.FindWithTag("SpeedUIElement");
-
-            uiPowerupDisplay = uiHaste.GetComponent<UIPowerupDisplay>();
-            uiPowerupDisplay = uiSpeed.GetComponent<UIPowerupDisplay>();
-
             uiPowerupDisplay.hideHasteUI();
             uiPowerupDisplay.showSpeedUI();
 
@@ -117,7 +135,7 @@ public class powerupInteraction : MonoBehaviour
 
         characterMovement = player.GetComponent<CharacterMovement>();
 
-        characterMovement.addSpeed((float)1.10);
+        characterMovement.addSpeed((float)1.20);
     }
 
 
@@ -127,7 +145,7 @@ public class powerupInteraction : MonoBehaviour
 
         characterMovement = player.GetComponent<CharacterMovement>();
 
-        characterMovement.addSpeed((float)0.91);
+        characterMovement.removeSpeed((float)1.20);
     }
 
     public void applyHasteEffect()

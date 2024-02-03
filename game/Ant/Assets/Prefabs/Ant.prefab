@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8042c9a7698b3f249abdc4cae7ec813e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hSpeed: 8
+  hSpeed: 6
   vSpeed: 4
   canMove: 1
   animator: {fileID: 4020858483379745194}
@@ -339,6 +339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterMovement: {fileID: 0}
   grassCollide: {fileID: 0}
+  uiPowerupDisplay: {fileID: 0}
   hasPowerup: 0
   hasSpeed: 0
   hasHaste: 0
