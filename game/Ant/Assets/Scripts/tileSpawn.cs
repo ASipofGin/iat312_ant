@@ -47,7 +47,7 @@ public class tileSpawn : MonoBehaviour
                 stats.addStage();
                 int randomTileIndex = UnityEngine.Random.Range(0, tilesets.Length);
                 Instantiate(tilesets[randomTileIndex], new Vector3(transform.position.x + 10, 0, 0), transform.rotation);
-                Instantiate(gameObject, new Vector3(transform.position.x + 40, 0, 0), transform.rotation);
+                Instantiate(gameObject, new Vector3(transform.position.x + 60, 0, 0), transform.rotation);
 
 
             }
@@ -62,7 +62,7 @@ public class tileSpawn : MonoBehaviour
                 stats.stageReset();
                 stats.addThreshold();
                 int randomTileIndex = UnityEngine.Random.Range(0, anthillTiles.Length);
-                Instantiate(anthillTiles[randomTileIndex], new Vector3(transform.position.x + 5, 0, 0), transform.rotation);
+                Instantiate(anthillTiles[randomTileIndex], new Vector3(transform.position.x + 10, 0, 0), transform.rotation);
 
 
 

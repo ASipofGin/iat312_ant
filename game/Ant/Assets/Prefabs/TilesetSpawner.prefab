@@ -47,7 +47,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilesets:
   - {fileID: 5279237288432436878, guid: 949ce80648b72c44da3ceedb81f89307, type: 3}
-  - {fileID: 4143503813041450552, guid: 277b96e3964a243498384cee106820d1, type: 3}
+  - {fileID: 5279237288432436878, guid: 737c1c378cb544045bc09baa31b96604, type: 3}
+  - {fileID: 5279237288432436878, guid: 704b7175191d0cd478cb6a70001ee646, type: 3}
+  - {fileID: 5279237288432436878, guid: 1a8fefa5b164bb343afc269988c4f5a3, type: 3}
+  - {fileID: 5279237288432436878, guid: 27c45eb8a16afd2419a854b71b2b000d, type: 3}
+  - {fileID: 5279237288432436878, guid: c975a04ae1244d84cb81e7ab685772f6, type: 3}
+  - {fileID: 5279237288432436878, guid: a824d788f998f3345ae276962e1bd201, type: 3}
   anthillTiles:
   - {fileID: 6279731673333410632, guid: 0b836aad6b586934e92e27f1c75ed360, type: 3}
   tileSpawner: {fileID: 6597962350218077261}
