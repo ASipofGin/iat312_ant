@@ -54,4 +54,8 @@ public class ShowDistance : MonoBehaviour
 
         text.text = (string)dispText + " CM"; 
     }
+
+    public float returnDistance(){
+        return distanceToPlayer;
+    }
 }

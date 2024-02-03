@@ -6,6 +6,8 @@ public class Stats : MonoBehaviour
 {
     public float antlionSpdMult = 1f;
     public float stgCount = 0;
+
+    public float distance = 11;
     public int score;
 
 
@@ -61,6 +63,18 @@ public class Stats : MonoBehaviour
 
     public int getScore(){
         return score;
+    }
+
+    public void setDistance(float dist){
+        distance = dist;
+    }
+
+    public float checkDistance(){
+        return distance;
+    }
+
+    public float getOffset(){
+        return distance;
     }
 
 

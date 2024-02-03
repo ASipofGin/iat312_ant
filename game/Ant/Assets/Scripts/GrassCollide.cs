@@ -29,7 +29,6 @@ public class GrassCollide : MonoBehaviour
         if (other.CompareTag("Grass"))
         {
             // if the tag of the collision is grass, bol touch is true
-            Debug.Log("touching");
 
             destroyTime += Time.deltaTime;
             grassObject = other.gameObject;

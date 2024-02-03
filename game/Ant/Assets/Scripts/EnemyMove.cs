@@ -7,6 +7,8 @@ public class EnemyMove : MonoBehaviour
     public GameObject player;  // Reference to the player GameObject
     [SerializeField] private Stats stats;
     [SerializeField] private float speedMult;
+
+    [SerializeField] private float startOffset;
     public float distanceToPlayer;
 
     private void Awake()
@@ -16,10 +18,13 @@ public class EnemyMove : MonoBehaviour
         speedMult = stats.antLionSpeedMult();
         speed = speed * speedMult;
 
+        startOffset = stats.getOffset() + 1f;
+
     }
 
     void Start(){
         player = GameObject.FindGameObjectWithTag("Player");
+        transform.position = new Vector3(player.transform.position.x - startOffset -11, 0, 0);
     }
     private void Update()
     {
