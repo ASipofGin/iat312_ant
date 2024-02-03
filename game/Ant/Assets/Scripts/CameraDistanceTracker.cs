@@ -8,7 +8,7 @@ public class CameraDistanceTracker : MonoBehaviour
     void Start()
     {
         // Initialize the last position with the current position
-        lastXPosition = transform.position.x;
+        lastXPosition = 0f;
 
         // Find the Stats object in the scene (assuming there is only one)
         stats = FindObjectOfType<Stats>();
