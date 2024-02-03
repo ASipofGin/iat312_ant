@@ -24,7 +24,7 @@ public class EnemyMove : MonoBehaviour
 
     void Start(){
         player = GameObject.FindGameObjectWithTag("Player");
-        transform.position = new Vector3(player.transform.position.x - startOffset -11, 0, 0);
+        transform.position = new Vector3(player.transform.position.x - startOffset -11, 1.34f, 0);
     }
     private void Update()
     {
