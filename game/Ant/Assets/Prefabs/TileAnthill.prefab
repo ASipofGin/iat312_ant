@@ -103,6 +103,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6132452831579935624}
     m_Modifications:
+    - target: {fileID: 2810096224378507413, guid: 5183b3af77f4a8c4288caa9e4cc42297, type: 3}
+      propertyPath: targetScene
+      value: Anthill Test
+      objectReference: {fileID: 0}
     - target: {fileID: 6286930580162454998, guid: 5183b3af77f4a8c4288caa9e4cc42297, type: 3}
       propertyPath: m_Name
       value: SceneLoader
