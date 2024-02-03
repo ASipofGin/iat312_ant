@@ -14,6 +14,8 @@ TagManager:
   - TitleScreen
   - hastePowerup
   - Mud
+  - SpeedUIElement
+  - HasteUIElement
   layers:
   - Default
   - TransparentFX

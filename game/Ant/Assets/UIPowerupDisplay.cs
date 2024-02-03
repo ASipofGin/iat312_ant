@@ -10,13 +10,37 @@ public class UIPowerupDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        uiSpeedSprite = GetComponent<Image>();
-        uiHasteSprite = GetComponent <Image>();
+        uiSpeedSprite = GameObject.FindWithTag("SpeedUIElement").GetComponent<Image>();
+        uiHasteSprite = GameObject.FindWithTag("HasteUIElement").GetComponent<Image>();
+
+
+        uiSpeedSprite.enabled = false;
+        uiHasteSprite.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void showSpeedUI()
+    {
+        uiSpeedSprite.enabled = true;
+    }
+
+    public void showHasteUI()
+    {
+        uiHasteSprite.enabled = true;
+    }
+
+    public void hideSpeedUI()
+    {
+        uiSpeedSprite.enabled = false;
+    }
+
+    public void hideHasteUI()
+    {
+        uiHasteSprite.enabled = false;
     }
 }
