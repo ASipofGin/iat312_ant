@@ -6,6 +6,7 @@ public class Stats : MonoBehaviour
 {
     public float antlionSpdMult = 1f;
     public float stgCount = 0;
+    public int score;
 
 
 
@@ -52,6 +53,14 @@ public class Stats : MonoBehaviour
     public float stageCount()
     {
         return stgCount;
+    }
+
+    public void addScore(){
+        score = score += 1;
+    }
+
+    public int getScore(){
+        return score;
     }
 
 
