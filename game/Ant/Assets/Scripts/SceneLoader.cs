@@ -27,7 +27,7 @@ public class SceneLoader : MonoBehaviour
         stats = statsObj.GetComponent<Stats>();
         
         GameObject distanceObj  = GameObject.FindGameObjectWithTag("DistanceCounter");
-        if (distanceObj != null){
+        if (distanceObj != null && statsObj !=null){
             showDistance = distanceObj.GetComponent<ShowDistance>();
             distance = showDistance.returnDistance();
             stats.setDistance(distance);

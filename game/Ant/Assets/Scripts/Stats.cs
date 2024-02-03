@@ -57,8 +57,8 @@ public class Stats : MonoBehaviour
         return stgCount;
     }
 
-    public void addScore(){
-        score = score += 1;
+    public void addScore(float scoretoAdd){
+        score = score += (int)scoretoAdd;
     }
 
     public int getScore(){
