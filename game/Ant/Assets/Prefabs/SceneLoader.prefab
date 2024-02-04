@@ -91,3 +91,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: MASTER
+  triggerScene: Anthill Test
+  stats: {fileID: 0}
+  showDistance: {fileID: 0}

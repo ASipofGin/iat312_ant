@@ -686,6 +686,10 @@ PrefabInstance:
       propertyPath: targetScene
       value: MASTER
       objectReference: {fileID: 0}
+    - target: {fileID: 2810096224378507413, guid: 5183b3af77f4a8c4288caa9e4cc42297, type: 3}
+      propertyPath: triggerScene
+      value: Anthill Test
+      objectReference: {fileID: 0}
     - target: {fileID: 6286930580162454998, guid: 5183b3af77f4a8c4288caa9e4cc42297, type: 3}
       propertyPath: m_Name
       value: SceneLoader
