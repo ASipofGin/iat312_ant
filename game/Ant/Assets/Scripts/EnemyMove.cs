@@ -19,12 +19,17 @@ public class EnemyMove : MonoBehaviour
         speed = speed * speedMult;
 
         startOffset = stats.getOffset() + 1f;
+        Debug.Log("Startoffset set");
 
     }
 
     void Start(){
         player = GameObject.FindGameObjectWithTag("Player");
         transform.position = new Vector3(player.transform.position.x - startOffset -11, 1.34f, 0);
+
+        Debug.Log("Plater pos:" + player.transform.position.x);
+        Debug.Log("Start offset: "+ startOffset);
+        Debug.Log(player.transform.position.x - startOffset);
     }
     private void Update()
     {
