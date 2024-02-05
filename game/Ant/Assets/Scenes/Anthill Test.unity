@@ -655,11 +655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardDescriptions.Array.data[1]
-      value: 'Increase your characters strength by '
+      value: 'Increase your characters eating strength by '
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: cardDescriptions.Array.data[2]
-      value: 'Increase power-up effectiveness by '
+      value: 'Increase power-up duration by '
       objectReference: {fileID: 0}
     - target: {fileID: 3309025951945176294, guid: 187c1e40b4055ac41919d2908c49b19d, type: 3}
       propertyPath: scardDescriptions.Array.data[0]

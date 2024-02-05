@@ -33,7 +33,7 @@ public class powerupSpawn : MonoBehaviour
 
         if (powerups != null && powerups.Length > 0)
         {
-            int spawnChance = UnityEngine.Random.Range(0, 100);
+            int spawnChance = UnityEngine.Random.Range(1, 100);
 
             if (spawnChance <= powerupSpawnRate)
             {
