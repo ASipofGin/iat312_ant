@@ -29,7 +29,7 @@ public class EnemyMove : MonoBehaviour
 
         Debug.Log("Plater pos:" + player.transform.position.x);
         Debug.Log("Start offset: "+ startOffset);
-        Debug.Log(player.transform.position.x - startOffset);
+        Debug.Log(player.transform.localPosition.x - startOffset);
     }
     private void Update()
     {
