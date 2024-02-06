@@ -1,7 +1,7 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyMove : MonoBehaviour
-
 {
     public float speed = 5.0f; // Speed of the enemy movement
     public GameObject player;  // Reference to the player GameObject
@@ -20,33 +20,39 @@ public class EnemyMove : MonoBehaviour
 
         startOffset = stats.getOffset() + 1f;
         Debug.Log("Startoffset set");
-
     }
 
-    void Start(){
+    IEnumerator Start()
+    {
         player = GameObject.FindGameObjectWithTag("Player");
-        transform.position = new Vector3(player.transform.localPosition.x - startOffset -11, 1.34f, 0);
 
-        Debug.Log("Plater pos:" + player.transform.localPosition.x);
-        Debug.Log("Start offset: "+ startOffset);
+        // Wait for one frame
+        yield return null;
+
+        transform.position = new Vector3(player.transform.localPosition.x - startOffset - 11, 1.34f, 0);
+
+        Debug.Log("Player pos:" + player.transform.localPosition.x);
+        Debug.Log("Start offset: " + startOffset);
         Debug.Log(player.transform.localPosition.x - startOffset);
     }
+
     private void Update()
     {
-
         // Move the enemy to the right
         transform.Translate(speed * Time.deltaTime, 0, 0);
 
         // Calculate the distance to the player in centimeters
         distanceToPlayer = Vector3.Distance(transform.position, player.transform.position) - 11; // Convert meters to centimeters
-
+        Debug.Log("player pos in update " + startOffset);
     }
 
-    public float returnDist(){
+    public float returnDist()
+    {
         return distanceToPlayer;
     }
 
-    public void addSpeed(float percentage){
+    public void addSpeed(float percentage)
+    {
         speed = speed * percentage;
     }
 }
