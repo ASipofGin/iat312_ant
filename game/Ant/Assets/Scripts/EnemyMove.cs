@@ -25,9 +25,9 @@ public class EnemyMove : MonoBehaviour
 
     void Start(){
         player = GameObject.FindGameObjectWithTag("Player");
-        transform.position = new Vector3(player.transform.position.x - startOffset -11, 1.34f, 0);
+        transform.position = new Vector3(player.transform.localPosition.x - startOffset -11, 1.34f, 0);
 
-        Debug.Log("Plater pos:" + player.transform.position.x);
+        Debug.Log("Plater pos:" + player.transform.localPosition.x);
         Debug.Log("Start offset: "+ startOffset);
         Debug.Log(player.transform.localPosition.x - startOffset);
     }

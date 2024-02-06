@@ -7,6 +7,7 @@ public class ShowDistance : MonoBehaviour
 {
     private EnemyMove enemyMove;
     private Text text;
+    private Image image;
 
     private string dispText;
     private float distanceToPlayer;
@@ -14,9 +15,11 @@ public class ShowDistance : MonoBehaviour
     void Start()
     {
         text = gameObject.GetComponent<Text>();
-        if (text == null)
+        image = gameObject.GetComponentInChildren<Image>();
+
+        if (text == null && image == null)
         {
-            Debug.LogError("Text component not found on the GameObject.");
+            Debug.LogError("Text or image component not found on the GameObject.");
         }
 
         GameObject enemyGameObject = GameObject.FindGameObjectWithTag("Enemy");
@@ -43,16 +46,18 @@ public class ShowDistance : MonoBehaviour
             if (distanceToPlayer > 5)
             {
                 text.enabled = true;
+                image.enabled = true;
             }
             else if (distanceToPlayer < 4.9)
             {
                 text.enabled = false;
+                image.enabled = false;
             }
         }
 
         dispText = string.Format("{0:N0}", distanceToPlayer);
 
-        text.text = (string)dispText + " CM"; 
+        text.text = (string)dispText + " CM away from antlion"; 
     }
 
     public float returnDistance(){
