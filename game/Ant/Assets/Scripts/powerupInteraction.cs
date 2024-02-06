@@ -93,6 +93,18 @@ public class powerupInteraction : MonoBehaviour
             uiPowerupDisplay.hideHasteUI();
 
         }
+
+        if (hasSpeed)
+        {
+            uiPowerupDisplay.showSpeedUI();
+            uiPowerupDisplay.hideHasteUI();
+        }
+
+        else if (hasHaste)
+        {
+            uiPowerupDisplay.showHasteUI();
+            uiPowerupDisplay.hideSpeedUI();
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other)
